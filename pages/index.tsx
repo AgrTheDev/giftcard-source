@@ -8,7 +8,7 @@ export default function Index() {
       <Head>
         <html data-theme="forest"></html>
       </Head>
-      <Navbar />
+      {/*<Navbar />*/}
       <div className="container mx-auto">
         {/* DESCRIPTION */}
         <div className="hero bg-base-300 py-14 mt-10">
