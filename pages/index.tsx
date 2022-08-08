@@ -24,7 +24,7 @@ export default function Index() {
         <div className="md:flex mt-10 space-y-8 md:justify-center md:space-x-8 md:space-y-0 ">
           <div className="card w-96 bg-base-100 shadow-xl">
             <figure>
-              <Image src="/apple_banner.png" width={400} height={225} />
+              <Image src="/apple_banner.png" width={400} height={225} alt="" />
             </figure>
             <div className="card-body bg-base-300">
               <h2 className="card-title">Apple Giftcards!</h2>
@@ -36,7 +36,7 @@ export default function Index() {
           </div>
           <div className="card w-96 bg-base-100 shadow-xl">
             <figure>
-              <Image src="/steam_banner.png" width={400} height={225} />
+              <Image src="/steam_banner.png" width={400} height={225} alt="" />
             </figure>
             <div className="card-body bg-base-300">
               <h2 className="card-title">Steam Giftcards!</h2>
@@ -48,11 +48,11 @@ export default function Index() {
           </div>
           <div className="card w-96 bg-base-100 shadow-xl">
             <figure>
-              <Image src="/googleplay_banner.png" width={400} height={225} />
+              <Image src="/googleplay_banner.png" width={400} height={225} alt="" />
             </figure>
             <div className="card-body bg-base-300">
               <h2 className="card-title">Google Play Giftcards!</h2>
-              <p>With millions of apps, games and more to discover, there's something for everyone on Google Play. Use a Google Play gift code to explore a world of endless play, from your go-to games to the apps that you can’t live without.</p>
+              <p>With millions of apps, games and more to discover, there&apos;s something for everyone on Google Play. Use a Google Play gift code to explore a world of endless play, from your go-to games to the apps that you can’t live without.</p>
               <div className="card-actions justify-end">
                 <button className="btn btn-primary">Buy Now</button>
               </div>
