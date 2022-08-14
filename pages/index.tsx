@@ -1,16 +1,17 @@
 import Head from "next/head"
 import Navbar from "../components/navbar"
 import Image from "next/image"
+import type { NextPage } from "next"
 
-export default function Index() {
+const Index: NextPage = () => {
   return (
     <>
       <Head>
         <html data-theme="forest"></html>
       </Head>
-      {/*<Navbar />*/}
+      <Navbar />
       <div className="container mx-auto">
-        {/* DESCRIPTION */}
+        
         <div className="hero bg-base-300 py-14 mt-10">
           <div className="hero-content text-left">
             <div className="">
@@ -20,7 +21,7 @@ export default function Index() {
             </div>
           </div>
         </div>
-        {/* CARDS */}
+        
         <div className="md:flex mt-10 space-y-8 md:justify-center md:space-x-8 md:space-y-0 ">
           <div className="card w-96 bg-base-100 shadow-xl">
             <figure>
@@ -63,3 +64,5 @@ export default function Index() {
     </>
   )
 }
+
+export default Index
